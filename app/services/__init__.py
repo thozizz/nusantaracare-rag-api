@@ -1,7 +1,7 @@
 # app/services/__init__.py
-from .parser import parse_document
-from .embedder import Embedder
-from .vector_store import VectorStore
-from .indexing import build_vector_index
-from .llm_client import LLMClient
-from .rag import RAGPipeline
+from app.services.parser import parse_document
+from app.services.embedder import Embedder
+from app.services.vector_store import VectorStore
+from app.services.indexing import build_vector_index
+from app.services.llm_client import LLMClient
+from app.services.rag import RAGPipeline
