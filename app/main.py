@@ -12,8 +12,8 @@ from contextlib import asynccontextmanager
 # Muat .env dari root proyek (override=True agar menimpa environment yang ada)
 load_dotenv(override=True)
 
-from .schemas import AskRequest, AskResponse, HealthResponse, Citation
-from .services import VectorStore, Embedder, LLMClient, RAGPipeline
+from app.schemas import AskRequest, AskResponse, HealthResponse, Citation
+from app.services import VectorStore, Embedder, LLMClient, RAGPipeline
 
 # Konfigurasi logging
 logging.basicConfig(level=logging.INFO)
